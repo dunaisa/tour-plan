@@ -7,24 +7,38 @@ body {
 }
 /* Шапка сайта */
 .header {
+  margin: auto;
   width: 100%;
-  padding: 40px 165px;
 }
-.header-container {
+.container {
+  margin: auto;
   max-width: 1060px;
+}
+.header-top {
   margin: auto;
   display: flex;
   justify-content: space-between;
+  margin: auto;
+  max-width: 1060px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
-.account {
+.user {
   display: block;
   display: flex;
   align-items: center;
 }
-.user-photo {
+.user__photo {
   margin-right: 18px;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
 }
-.logo {
+.user__name {
+  font-size: 14px;
+}
+.logo__image {
   height: 24px;
   width: 177px;
 }
@@ -40,7 +54,7 @@ input {
   padding-bottom: 12px;
   font-size: 12px;
 }
-.button-search {
+.button__search {
   background: #ec1f46;
   border-radius: 0px 6px 6px 0px;
   width: 65px;
@@ -48,15 +62,17 @@ input {
   position: absolute;
   border-color: transparent;
 }
-.nav {
-  padding: 31px 164px;
+.header-bottom {
   background: #0a223d;
+  width: 100%;
 }
-.navigation-container {
-  max-width: 1060px;
+.header-menu {
   margin: auto;
   display: flex;
   justify-content: space-between;
+  padding-top: 31px;
+  padding-bottom: 31px;
+  max-width: 1060px;
 }
 .nav-link {
   text-decoration: none;
@@ -66,10 +82,6 @@ input {
 }
 .hero {
   background: #f5fafe;
-}
-.hero-container {
-  max-width: 1060px;
-  margin: auto;
 }
 .history {
   padding-bottom: 18px;
