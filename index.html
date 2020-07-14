@@ -4,63 +4,90 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tour</title>
-    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700&family=Nunito:wght@400;600;800&display=swap"
-      rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700&family=Nunito:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header class="header">
-      <div class="header-top">
-        <a href="#" class="logo">
-        <img src="img/horizontal-logo.svg" alt="Logo: best tour plan" class="logo__image" />
-        </a>
+      <div class="container">
+        <div class="header-top">
+          <a href="#" class="logo">
+            <img
+              src="img/horizontal-logo.svg"
+              alt="Logo: best tour plan"
+              class="logo__image"
+            />
+          </a>
 
-        <form action="#" class="search">
-          <input type="text" placeholder="Search Location" />
-          <button class="button button__search" type="submit">
-            <img src="img/search.svg" alt="Icon: search" >
-          </button>
-        </form>
+          <form action="#" class="search header__search">
+            <input
+              type="text"
+              class="search__input"
+              placeholder="Search Location"
+            />
+            <button class="search__button" type="submit">
+              <img src="img/search.svg" alt="Icon: search" />
+            </button>
+          </form>
 
-        <div class="user">
-          <img src="img/user-photo.jpg" alt="" class="user__photo" />
-          <span class="user__name">Nathan</span>
+          <a href="#" class="user">
+            <img src="img/user-photo.jpg" alt="" class="user__photo" />
+            <span class="user__name">Nathan</span>
+          </a>
         </div>
-      </div>
-      <div class="header-bottom">
-      <nav class="header-menu">
-          <a href="" class="nav-link">All Deals</a>
-          <a href="" class="nav-link">Hotels</a>
-          <a href="" class="nav-link">Activities</a>
-          <a href="" class="nav-link">Hotel Day Packages</a>
-          <a href="" class="nav-link">Restaurants</a>
-          <a href="" class="nav-link">Events</a>
-          <a href="" class="nav-link">Rodrigues</a>
-      </nav>
-      <!-- /.nav -->
-    </div>
       </div>
       <!-- /.container -->
+      <div class="header-bottom">
+        <div class="container">
+          <ul class="header-menu">
+            <li class="header-menu__item">
+              <a href="" class="header-menu__link">All Deals</a>
+            </li>
+            <li class="header-menu__item">
+              <a href="" class="header-menu__link">Hotels</a>
+            </li>
+            <li class="header-menu__item">
+              <a href="" class="header-menu__link">Activities</a>
+            </li>
+            <li class="header-menu__item">
+              <a href="" class="header-menu__link">Hotel Day Packages</a>
+            </li>
+            <li class="header-menu__item">
+              <a href="" class="header-menu__link">Restaurants</a>
+            </li>
+            <li class="header-menu__item">
+              <a href="" class="header-menu__link">Events</a>
+            </li>
+            <li class="header-menu__item">
+              <a href="" class="header-menu__link">Rodrigues</a>
+            </li>
+          </ul>
+          <!-- /.ul -->
+        </div>
+      </div>
     </header>
-    
+
     <section class="hero">
       <div class="container">
-      <div class="hero-container">
-        <div class="history">
-          <span>Home / Flash Offers / Grand Hilton Hotel</span>
-        </div>
-        <div class="hotel-info">
-          <div class="hotel-lvl">
-            <img src="img/star.png" alt="" class="stars" />
-            <img src="img/star.png" alt="" class="stars" />
-            <img src="img/star.png" alt="" class="stars" />
-            <img src="img/star.png" alt="" class="stars" />
-            <img src="img/star.png" alt="" class="stars" />
+        <div class="hero-container">
+          <div class="history">
+            <span>Home / Flash Offers / Grand Hilton Hotel</span>
           </div>
-          <div class="information-block">
-            <span class="hotel-name">GRAND HILTON HOTEL</span>
-            <div class="flash-offer">Flash Offer</div>
-          </div>
+          <div class="hotel-info">
+            <div class="hotel-lvl">
+              <img src="img/star.png" alt="" class="stars" />
+              <img src="img/star.png" alt="" class="stars" />
+              <img src="img/star.png" alt="" class="stars" />
+              <img src="img/star.png" alt="" class="stars" />
+              <img src="img/star.png" alt="" class="stars" />
+            </div>
+            <div class="information-block">
+              <span class="hotel-name">GRAND HILTON HOTEL</span>
+              <div class="flash-offer">Flash Offer</div>
+            </div>
             <div class="information">
               Half-Board/ All Inclusive + Complimentary Activities + Child Stays
               Free
