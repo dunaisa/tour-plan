@@ -539,7 +539,7 @@ template {
   }
 }
 
-@madia (max-width: 576px) {
+@media (max-width: 576px) {
   .logo {
     width: 99px;
   }
