@@ -34,3 +34,7 @@ function init() {
 
   map.geoObjects.add(placemark);
 }
+
+$(".newsletter").parallax({
+  imageSrc: "img/newsletter-bg.jpg",
+});
