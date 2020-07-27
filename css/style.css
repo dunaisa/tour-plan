@@ -825,6 +825,7 @@ template {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background: transparent;
 }
 
 .newsletter:before {
@@ -978,6 +979,7 @@ template {
   border: none;
   cursor: pointer;
   z-index: 5;
+  outline: none;
 }
 
 .reviews-slider__button--prev {
@@ -1263,7 +1265,7 @@ template {
     height: 250px;
   }
   .map {
-    max-width: 500px;
+    max-width: 100%;
   }
   .newsletter {
     padding: 76px 0 83px 0;
