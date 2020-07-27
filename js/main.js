@@ -1,4 +1,4 @@
-var mySwiper = new Swiper(".hotel-slider", {
+var hotelSlider = new Swiper(".hotel-slider", {
   // Optional parameters
   loop: true,
   keyboard: true,
@@ -14,4 +14,16 @@ var mySwiper = new Swiper(".hotel-slider", {
 
 $(".newsletter").parallax({
   imageSrc: "img/newsletter-bg.jpg",
+});
+
+var reviewsSlider = new Swiper(".reviews-slider", {
+  // Optional parameters
+  loop: true,
+  keyboard: true,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".reviews-slider__button--next",
+    prevEl: ".reviews-slider__button--prev",
+  },
 });
