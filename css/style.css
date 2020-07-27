@@ -1263,7 +1263,7 @@ template {
     height: 250px;
   }
   .map {
-    width: 100%;
+    max-width: 500px;
   }
   .newsletter {
     padding: 76px 0 83px 0;
