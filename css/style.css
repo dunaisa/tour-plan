@@ -1431,8 +1431,8 @@ template {
     margin-bottom: 20px;
   }
   .card {
-    height: 230px;
-    width: 45%;
+    height: 255px;
+    width: 48%;
   }
   .footer-wrapper {
     -ms-grid-columns: (1fr)[6];
@@ -1622,8 +1622,8 @@ template {
             transform: translate(50%, 0);
   }
   .card {
-    height: 230px;
-    width: 45%;
+    height: 255px;
+    width: 48%;
   }
 }
 
@@ -1665,6 +1665,9 @@ template {
     line-height: 23px;
     margin-bottom: 42px;
   }
+  .activities {
+    padding-bottom: 50px;
+  }
   .activities-wrapper {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -1676,7 +1679,7 @@ template {
     margin-bottom: 20px;
   }
   .card {
-    height: 300px;
+    height: 255px;
     width: 100%;
   }
   .card__image {
