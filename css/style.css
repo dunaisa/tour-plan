@@ -1803,6 +1803,46 @@ template {
     -ms-grid-column: 1;
     grid-column: 1;
   }
+  .footer__social-network {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer__social-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .footer__title--inline {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .footer__button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer__button-info {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .footer__date {
+    margin-top: 47px;
+  }
   .footer__date-info {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
