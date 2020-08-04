@@ -1319,7 +1319,7 @@ template {
   font-size: 12px;
   line-height: 15px;
   padding: 18px 23px;
-  max-height: 123px;
+  height: 123px;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   margin-bottom: 23px;
@@ -1912,6 +1912,9 @@ template {
   .footer__date-image {
     left: 0;
     top: 25px;
+  }
+  .search__input {
+    max-width: 280px;
   }
 }
 /*# sourceMappingURL=style.css.map */
