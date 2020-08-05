@@ -2081,21 +2081,95 @@ template {
   }
 }
 
-@media (max-height: 320px) {
+@media (max-height: 320px) and (min-width: 1200px) {
   .modal__title {
     font-size: 14px;
     margin-bottom: 5px;
   }
   .modal__dialog {
+    width: 400px;
     height: 90%;
-    padding: 10px 10px;
+    padding: 20px 20px;
   }
   .modal__input {
-    height: 35px;
+    max-height: 35px;
     margin-bottom: 5px;
   }
   .modal__message {
-    height: 70px;
+    max-height: 70px;
+    padding-top: 15px;
+    margin-bottom: 5px;
+  }
+  .modal__button {
+    height: 30px;
+    max-width: 120px;
+  }
+}
+
+@media (max-height: 320px) and (max-width: 1200px) {
+  .modal__title {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .modal__dialog {
+    width: 400px;
+    height: 90%;
+    padding: 20px 20px;
+  }
+  .modal__input {
+    max-height: 35px;
+    margin-bottom: 5px;
+  }
+  .modal__message {
+    max-height: 70px;
+    padding-top: 15px;
+    margin-bottom: 5px;
+  }
+  .modal__button {
+    height: 30px;
+    max-width: 120px;
+  }
+}
+
+@media (max-height: 320px) and (max-width: 992px) {
+  .modal__title {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .modal__dialog {
+    width: 400px;
+    height: 90%;
+    padding: 20px 20px;
+  }
+  .modal__input {
+    max-height: 35px;
+    margin-bottom: 5px;
+  }
+  .modal__message {
+    max-height: 70px;
+  }
+  .modal__button {
+    height: 30px;
+    max-width: 120px;
+  }
+}
+
+@media (max-height: 320px) and (max-width: 768px) {
+  .modal__title {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .modal__dialog {
+    width: 400px;
+    height: 90%;
+    padding: 20px 20px;
+  }
+  .modal__input {
+    max-height: 35px;
+    margin-bottom: 5px;
+  }
+  .modal__message {
+    height: 100px;
   }
   .modal__button {
     height: 30px;
