@@ -625,6 +625,7 @@ template {
 .hotel-slider {
   max-width: 728px;
   height: 450px;
+  margin: 0;
 }
 
 .hotel-slider__button {
