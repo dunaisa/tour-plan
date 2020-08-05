@@ -1662,9 +1662,6 @@ template {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .modal__dialog {
-    max-width: 400px;
-  }
 }
 
 @media (max-width: 768px) {
@@ -1857,6 +1854,9 @@ template {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+  .modal__dialog {
+    width: 90%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -2037,6 +2037,9 @@ template {
   }
   .search__input {
     max-width: 280px;
+  }
+  .modal__dialog {
+    width: 80%;
   }
 }
 
