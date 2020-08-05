@@ -1659,12 +1659,29 @@ template {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+  .modal__title {
+    font-size: 14px;
+  }
   .modal__dialog {
-    max-width: 400px;
+    width: 90%;
+    max-height: 90%;
     padding: 30px 45px;
+  }
+  .modal__input {
+    font-size: 14px;
+    height: 30px;
+    padding: 7px 10px;
   }
   .modal__message {
     height: 80px;
+    padding: 7px 10px;
+  }
+  .modal__button {
+    font-size: 14px;
+    height: 30px;
+    margin-bottom: 15px;
+    padding: 5px 5px;
+    width: 100px;
   }
 }
 
@@ -2061,6 +2078,28 @@ template {
   }
   .search__input {
     max-width: 280px;
+  }
+}
+
+@media (max-height: 320px) {
+  .modal__title {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .modal__dialog {
+    height: 90%;
+    padding: 10px 10px;
+  }
+  .modal__input {
+    height: 35px;
+    margin-bottom: 5px;
+  }
+  .modal__message {
+    height: 70px;
+  }
+  .modal__button {
+    height: 30px;
+    max-width: 120px;
   }
 }
 /*# sourceMappingURL=style.css.map */
