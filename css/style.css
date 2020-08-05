@@ -2049,5 +2049,24 @@ template {
   .search__input {
     max-width: 280px;
   }
+  .modal__title {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .modal__dialog {
+    max-height: 315px;
+    padding: 20px 20px;
+  }
+  .modal__input {
+    max-height: 35px;
+    margin-bottom: 5px;
+  }
+  .modal__message {
+    max-height: 70px;
+  }
+  .modal__button {
+    height: 30px;
+    max-width: 120px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
