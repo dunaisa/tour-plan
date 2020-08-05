@@ -56,4 +56,21 @@ $(document).ready(function () {
     modalOverlay.removeClass("modal__overlay--visible");
     modalDialog.removeClass("modal__dialog--visible");
   }
+
+  document.body.addEventListener(
+    "keyup",
+    function (e) {
+      var key = e.keyCode;
+
+      if (key == 27) {
+        document
+          .querySelector("modal__overlay--visible")
+          .classList.remove("--visible");
+        document
+          .querySelector("modal__dialog--visible")
+          .classList.remove("--visible");
+      }
+    },
+    false
+  );
 });
