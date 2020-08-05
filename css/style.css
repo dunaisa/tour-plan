@@ -852,6 +852,11 @@ template {
   cursor: pointer;
 }
 
+.booking__button:hover {
+  -webkit-box-shadow: 2px 2px 20px red;
+          box-shadow: 2px 2px 20px red;
+}
+
 .map {
   border-radius: 10px;
   overflow: hidden;
@@ -929,8 +934,11 @@ template {
   font-weight: 300px;
   font-size: 14px;
   line-height: 18px;
-  color: #BDBDBD;
   outline: none;
+}
+
+.subscribe__input:placeholder {
+  color: #BDBDBD;
 }
 
 .subscribe__button {
@@ -1182,6 +1190,11 @@ template {
   cursor: pointer;
 }
 
+.card__button:hover {
+  -webkit-box-shadow: 2px 2px 20px red;
+          box-shadow: 2px 2px 20px red;
+}
+
 .footer {
   background-color: #0A223D;
   color: #FFFFFF;
@@ -1331,7 +1344,6 @@ template {
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
-  color: #BDBDBD;
   padding: 0 23px;
   height: 50px;
   border: none;
@@ -1339,10 +1351,14 @@ template {
   margin-bottom: 15px;
   -ms-flex-preferred-size: 48%;
       flex-basis: 48%;
+  color: #0A223D;
+}
+
+.footer__input:placeholder {
+  color: #BDBDBD;
 }
 
 .footer__message {
-  color: #BDBDBD;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -1355,11 +1371,20 @@ template {
   resize: none;
 }
 
+.footer__message:placeholder {
+  color: #BDBDBD;
+}
+
 .footer__button {
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
+}
+
+.footer__button:hover {
+  -webkit-box-shadow: 2px 2px 20px red;
+          box-shadow: 2px 2px 20px red;
 }
 
 .footer-info {
