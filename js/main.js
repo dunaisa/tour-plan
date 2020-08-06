@@ -57,20 +57,16 @@ $(document).ready(function () {
     modalDialog.removeClass("modal__dialog--visible");
   }
 
-  document.body.addEventListener(
-    "keyup",
-    function (e) {
-      var key = e.keyCode;
+  document.body.addEventListener("keyup", function (e) {
+    var key = e.keyCode;
 
-      if (key == 27) {
-        document
-          .querySelector("modal__overlay--visible")
-          .classList.remove("--visible");
-        document
-          .querySelector("modal__dialog--visible")
-          .classList.remove("--visible");
-      }
-    },
-    false
-  );
+    if (key == 27) {
+      document
+        .querySelector(".modal__overlay")
+        .classList.remove("modal__overlay--visible");
+      document
+        .querySelector(".modal__dialog")
+        .classList.remove("modal__dialog--visible");
+    }
+  });
 });
